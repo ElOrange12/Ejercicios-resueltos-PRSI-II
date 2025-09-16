@@ -94,6 +94,7 @@ while R == 'S':
         #Ahora la mostramos en pantalla
         for i in range(FS):
             print(MT[i])
+            print('')
 
     #Resta de matrices.
     elif O == 2:
@@ -148,6 +149,7 @@ while R == 'S':
         #Ahora la mostramos en pantalla.
         for i in range(FR):
             print(MT[i])
+            print('')
 
     #Multiplicación de matrices.
     elif O == 3:
@@ -220,8 +222,8 @@ while R == 'S':
         #Ahora la mostramos en pantalla.
         for i in range(F1):
             print(MT[i])
-
-
+            print('')
+    
     #Determinante de una matriz.
     elif O == 4:
         print('Para calcular el determinante de una matriz necesitaremos que '
@@ -371,6 +373,7 @@ while R == 'S':
             #La mostramos por pantalla    
             for i in range(FI):
                 print(MI[i])
+                print('')
 
         #En caso de ser una matriz de orden 3.
         if FI == 3:
@@ -421,9 +424,11 @@ while R == 'S':
             #La mostramos por pantalla    
             for i in range(FI):
                 print(MI[i])
+                print('')
 
     #Preguntamos la opción de seguir operando con la calculadora o cerar el 
     #programa.
     if R == 'S':           
         print('¿Quieres seguir operando?')
         R = input('para seguir escribe "S" y para terminar "N": ')
+        print('')
