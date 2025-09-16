@@ -27,7 +27,7 @@ while R == 'S':
         print('2 --> Resta de matrices.')
         print('3 --> Multiplicación de matrices.')
         print('4 --> Determinante de una matriz, de grado 2 o 3.')
-        print('5 --> Inversa de una matriz, de grado 2 o 3 ')
+        print('5 --> Inversa de una matriz, de grado 2 o 3.')
         print('6 --> Cerrar. ')
         print('')
 
