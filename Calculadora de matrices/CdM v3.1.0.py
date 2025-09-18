@@ -38,7 +38,7 @@ while R == 'S':
         if O < 1 or O > 6:
             print('Esa no es un acción posible')
             print('')
-        #Esta condición hace que al poner "5" se termina el programa.
+        #Esta condición hace que al poner "6" se termina el programa.
         elif O == 6:
             R = 'N'
     
